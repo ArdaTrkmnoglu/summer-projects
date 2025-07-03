@@ -1,0 +1,1 @@
+/Users/ardatrkmnoglu/Desktop/GithubFiles/summer-projects/rust-projects/hello_cargo/target/debug/hello_cargo: /Users/ardatrkmnoglu/Desktop/GithubFiles/summer-projects/rust-projects/hello_cargo/src/main.rs
