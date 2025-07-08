@@ -1,74 +1,172 @@
 # 🧠 [README.md] Projects - Arda Türkmenoğlu
 
-📍 **Tarih:** 1 Temmuz – 25 Ağustos 2025  
-🎯 **Hedef:** Assembly, Rust, C++, JavaScript, DSA ve Asenkron Networking işlerini halletmek.
+📍 **Tarih:** 7 Temmuz – 31 Ağustos 2025  
+🎯 **Hedef:** Assembly, Rust, C++, JavaScript, DSA ve Asenkron Networking işlerini halletmek + Swift tekrar
 
 ---
 
-## 📅 Haftalık Program (Genel Yapı)
+## 📅 Haftalık Plan
 
-| Zaman   | Odak                    | Açıklama                                                     |
-|---------|-------------------------|--------------------------------------------------------------|
-| Gündüz  | Yeni konular            | C++, JavaScript, Rust, Assembly, DSA, networking             |
-| Gece    | Tekrar                  | LeetCode, mini projeler, Assembly egzersizleri, teknik okuma |
+1. Assembly  
+2. Rust  
+3. C++  
+4. JavaScript  
+5. DSA  
+6. Asenkron Networking (Hafta 5’ten itibaren)  
+7. Swift (Her cuma gecesi tekrar)
 
----
-
-## 🔁 Haftalık Plan
-
-| Gün        | Gündüz                            | Gece                                             |
-|------------|-----------------------------------|--------------------------------------------------|
-| Pazartesi  | Assembly (x86 NASM)               | Assembly kodlama + öğrenim                       |
-| Salı       | Rust                              | Rust CLI / async                                 |
-| Çarşamba   | C++ / DSA                         | LeetCode soru çözümü                             |
-| Perşembe   | Async Networking (Rust/C++)       | TCP/UDP sunucu yazımı, socket denemeleri         |
-| Cuma       | JavaScript                        | JS mini proje (Todo, API, arayüz)                |
-| Cumartesi  | Proje geliştirme                  | Refactor, dokümantasyon, ilerleme analizi        |
-| Pazar      | Hafif tekrar, serbest çalışma     | Sistem tasarımı, İngilizce video/okuma           |
+| Gün        | Gündüz                                  | Gece                                             |
+|------------|-----------------------------------------|--------------------------------------------------|
+| Pazartesi  | Assembly (x86 NASM)                     | Assembly                                         |
+| Salı       | Rust                                    | Rust                                             |
+| Çarşamba   | C++                                     | C++                                              |
+| Perşembe   | JavaScript                              | JavaScript                                       |
+| Cuma       | Data Structures & Algorithms            | Swift (tekrar)                                   |
+| Cumartesi  | Async Networking (5. Haftadan itibaren) | TCP/UDP sunucu yazımı, socket denemeleri         |
 
 ---
 
-## 📌 Haftalık Plan (8 Hafta)
+## 📌 HAFTA 1 (7–13 Temmuz)
 
-### ✅ HAFTA 1 (1–6 Temmuz)
-
-- **Gündüz:** Assembly ortam kurulumu (NASM), Rust kurulumu, C++ temel sözdizimi, JS giriş
-- **Gece:** İlk `mov`/`add` NASM kodu, Rust Book böl. 1–2-3, LeetCode Easy (Arrays), basit JS uygulamaları
-
-### ✅ HAFTA 2 (7–13 Temmuz)
-
-- **Gündüz:** Assembly input/output, Rust ownership (p. 4), C++ Linked List/Queue/Stack, JS DOM + events
-- **Gece:** Assembly ile metin (hello world falan) yazdırma, LeetCode + CLI programı, DOM uygulaması
-
-### ✅ HAFTA 3 (14–20 Temmuz)
-
-- **Gündüz:** Assembly loop/conditionals, Rust enums & Result, C++ Recursion, JS fetch
-- **Gece:** NASM `cmp`, `jne`, `loop`; Echo server fikri (Rust tokio), LeetCode Medium
-
-### ✅ HAFTA 4 (21–27 Temmuz)
-
-- **Gündüz:** Assembly’de diziler, Rust async (tokio), C++ Sorting (merge/quick), JS async/await
-- **Gece:** Assembly mini hesap makinesi, async TCP denemesi, API tabanlı JS proje
+- **Gündüz**
+  - Assembly: Introduction & Basic Assembly Language (#1-2)
+  - Rust: Giriş, `let`, `fn` (pt. 1-3)
+  - C++: Temel sözdizimi, string methods, arrays, pointers, (and other C topics), object-oriented topics
+  - JS: Variables, functions (#1-24)
+  - DSA: Array, Linked List, Stack, Queue
+- **Gece**
+  - Assembly: NASM kurulumu, register’lar, `mov`, `add` / Finding prime numbers
+  - Rust: CLI "Hello, Rust" uygulaması
+  - C++: Pointer ile dizi örneği
+  - JS: Counter, number guessing game, temperature conversion program
+  - Swift: Swift Playground üzerinde fonksiyon tekrar
 
 ---
 
-### ✅ HAFTA 5–8 (28 Temmuz – 24 Ağustos)
+## 📌 HAFTA 2 (14-20 Temmuz)
 
-#### 🛠 HAFTA 5:
-- Gündüz: Assembly fonksiyonlar, Rust warp/hyper server, C++ Tree & Graph
-- Gece: Proje refactor, HTTP sunucu yapımı, LeetCode Graph
+- **Gündüz**
+  - Assembly: Bit operations (#3)
+  - Rust: Ownership, references, borrowing (pt. 4)
+  - C++: Linked List, Stack, Queue
+  - JS: Arrays, callbacks, function expressions, arrow functions (#25-36)
+  - DSA: Big O notation, search
+- **Gece**
+  - Assembly: Subprograms, interfacing with C (#4)
+  - Rust: structs, methods, enums, pattern matching (pt. 5-6)
+  - C++: Stack/Queue uygulama
+  - JS: Dice roller, random password generator
+  - Swift: Struct, enum, optional
 
-#### 🛠 HAFTA 6:
-- Gündüz: Rust error handling, JavaScript framework’e giriş (React veya basic MVC)
-- Gece: Assembly dosya işlemleri, Rust logger ekle, React mini proje
+---
 
-#### 🛠 HAFTA 7:
-- Gündüz: Assembly ile sistem çağrıları (Linux syscall), C++ Heap/Trie
-- Gece: Dosya okuma/yazma uygulaması, DSA tekrar, networking görselleştirme
+## 📌 HAFTA 3 (21-27 Temmuz)
 
-#### 🛠 HAFTA 8:
-- Gündüz: Proje toparlama, portföy düzeni, öğrenilenlerin dökümantasyonu
-- Gece: Random projeler
+- **Gündüz**
+  - Assembly: Arrays, string instructions (#5)
+  - Rust: Modules, `use`, cargo structure, collections, error handling (pt. 7-9)
+  - C++: Recursion, Merge & Quick Sort
+  - JS: Objects, classes, inheritance, sorting, closures (#37-54)
+  - DSA: Recursion, sorting
+- **Gece**
+  - Assembly: String instruction program
+  - Rust: CLI kelime sayacı uygulaması
+  - C++: Sorting görselleştirme veya örnek
+  - JS: Timing applications (digital clock, stopwatch)
+  - Swift: Closure tekrarı + Combine’a giriş
+
+---
+
+## 📌 HAFTA 4 (28 Temmuz - 3 Ağustos)
+
+- **Gündüz**
+  - Assembly: Floating point (#6)
+  - Rust: Generics, traits, lifetimes / automated tests (pt. 10-11)
+  - C++: Binary Tree (DFS, BFS)
+  - JS: Asynchronous code, error handling, DOM, elements, navigation (#55-61)
+  - DSA: Hash tables, graphs
+- **Gece**
+  - Assembly: Quadratic formula, array reading, finding prime numbers
+  - Rust: I/O Program, Rust CLI (pt. 12)
+  - C++: DFS örnek kodlama
+  - JS: HTML, mouse/key events - Calculator program (#62-65)
+  - Swift: SwiftUI temel tekrar
+
+---
+
+## 📌 HAFTA 5 (4-10 Ağustos) – **Async Networking Başlangıcı**
+
+- **Gündüz**
+  - Assembly: Structures and C++, 80x86 instructions (#7-8)
+  - Rust: Iterators, closures, Cargo & Crates.io (pt. 13-14)
+  - C++: Graph (adjacency list/matrix)
+  - JS: Lists, callback, promises - RPS game, image slider (#66-71)
+  - DSA: DFS / BFS, tree traversal
+  - Async Networking: Temel kavramlar ve giriş
+- **Gece**
+  - Assembly: Dosya okuma/yazma (`read`, `write`, syscall)
+  - Rust: Smart pointers, fearless concurrency (pt. 15-16)
+  - C++: BFS/DFS ile graph traversal
+  - JS: Async / await, JSON, fetching data from API - Weather app (#72-75)
+  - Swift: Networking - async veri çekme
+  - Async Networking: Basic TCP echo server
+
+---
+
+## 📌 HAFTA 6 (11-17 Ağustos)
+
+- **Gündüz**
+  - Assembly: ardonium/OS giriş
+  - Rust: Asynchronous programming (pt. 17)
+  - C++: Dijkstra, yönlü graph
+  - JS: async uygulama (kullanıcı listeleme)
+  - DSA: Heap, Priority Queue
+  - Async Networking: Async TCP/UDP client-server
+- **Gece**
+  - Assembly: Boot, kernel
+  - Rust: Object-oriented features (pt. 18)
+  - C++: Dijkstra uygulaması
+  - JS: Form ile veri gönderimi
+  - Swift: Combine ile veri akışı
+  - Async Networking: UDP echo server + client
+
+---
+
+## 📌 HAFTA 7 (18-24 Ağustos)
+
+- **Gündüz**
+  - Assembly: Mini terminal uygulaması (syscall)
+  - Rust: Patterns, matching / advanced features (pt. 19-20)
+  - C++: HashMap, Trie
+  - JS: LocalStorage ile veri saklama
+  - DSA: Hashing + Trie
+  - Async Networking: Protocol design, multiple clients
+- **Gece**
+  - Assembly: 
+  - Rust: Multithreaded web server (pt. 21)
+  - C++: Trie uygulaması
+  - JS: Kullanıcı kayıt formu
+  - Swift: SwiftUI tekrar
+  - Async Networking: Mini chat server app
+
+---
+
+## 📌 HAFTA 8 (25-31 Ağustos)
+
+- **Gündüz**
+  - Assembly: Final proje – mini text editor veya komut yorumlayıcı
+  - Rust: Server refactor, JSON API dökümantasyonu
+  - C++: Kapsamlı tekrar
+  - JS: SPA polishing
+  - DSA: Karışık tekrar testi
+  - Async Networking: Async key-value store
+- **Gece**
+  - Assembly: Projeye logging ve dosya desteği ekle
+  - Rust: Sunum ve Readme düzenlemesi
+  - C++: Kod cleanup
+  - JS: UI düzenlemeleri
+  - Swift: Uygulama
+  - Async Networking: Advanced features
 
 ---
 
@@ -79,7 +177,7 @@
 | C++        | DSA soru havuzu çözümleri                   |
 | JavaScript | API bazlı hava durumu / not uygulaması      |
 | Rust       | Async TCP/HTTP sunucu (tokio / warp)        |
-| Assembly   | Mini hesap makinesi, metin işlemleri        |
+| Assembly   | ardonium/OS                                 |
 
 ---
 
@@ -88,8 +186,9 @@
 - **Assembly:** [PCASM Book](https://pacman128.github.io/pcasm/), [Low Level Learning](https://www.youtube.com/@LowLevelTV), NASM Guide, Beej’s Guide
 - **Rust:** [The Rust Book](https://doc.rust-lang.org/book/), [Tokio.rs](https://tokio.rs/)
 - **C++ & DSA:** NeetCode, LeetCode, William Fiset (YouTube)
-- **Networking:** Beej’s Guide to Network Programming, Tokio async, Boost.Asio
+- **Networking:** [Rust Async Book](https://rust-lang.github.io/async-book/), Beej’s Guide to Network Programming, Tokio async, Boost.Asio
 - **JavaScript:** [javascript.info](https://javascript.info), freeCodeCamp
+- **Swift:** Apple Docs, Hacking with Swift, SwiftUI Lab
 
 ---
 
