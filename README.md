@@ -142,7 +142,7 @@
   - DSA: Hashing + Trie
   - Async Networking: Protocol design, multiple clients
 - **Gece**
-  - Assembly: 
+  - Assembly: Mini text editor veya komut yorumlayıcı
   - Rust: Multithreaded web server (pt. 21)
   - C++: Trie uygulaması
   - JS: Kullanıcı kayıt formu
@@ -154,14 +154,14 @@
 ## 📌 HAFTA 8 (25-31 Ağustos)
 
 - **Gündüz**
-  - Assembly: Final proje – mini text editor veya komut yorumlayıcı
-  - Rust: Server refactor, JSON API dökümantasyonu
+  - Assembly: Diğer OS izlenceleri
+  - Rust: Server refactor, JSON API dokümantasyonu
   - C++: Kapsamlı tekrar
   - JS: SPA polishing
   - DSA: Karışık tekrar testi
   - Async Networking: Async key-value store
 - **Gece**
-  - Assembly: Projeye logging ve dosya desteği ekle
+  - Assembly: ardonium/OS final
   - Rust: Sunum ve Readme düzenlemesi
   - C++: Kod cleanup
   - JS: UI düzenlemeleri
