@@ -10,8 +10,13 @@ func sphericArea(r: Double) -> Double {
 
 var name = "Arda"
 var age = 21
+var score = 12
 
 print(name, "is", String(age), "years old.")
 print("\(name) is \(age) years old.")
 
 print(sphericArea(r: 10))
+
+let scoreDec = score > 10 ? "🎉" : ""
+
+print("Score:", score, scoreDec)
