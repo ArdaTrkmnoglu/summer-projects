@@ -5,7 +5,7 @@
 //  Created by Arda Türkmenoğlu on 1.08.2025.
 //
 
-let names = ["Arda", "Ayda", "Ada", "Neva"]
+let names = ["Arda", "Ayda", "Neva", "Ada"]
 
 // func sortBackwards(_ s1: String, _ s2: String) -> Bool {
 //     return s1 > s2
