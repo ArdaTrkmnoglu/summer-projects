@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// quadratic time complexity function: O(n^2)
+// quadratic runtime complexity function: O(n^2)
 
 void selectionSort(int arr[], int size);
 
