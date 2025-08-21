@@ -21,7 +21,7 @@ treeNode* createNodeWithParent(int data, treeNode* parent) {
 
 void preorder(treeNode* ptr) {              // root->left->right
     if (ptr) {
-        cout << ptr->data << " \n";
+        cout << ptr->data << " ";
         preorder(ptr->left);
         preorder(ptr->right);
     }
@@ -30,7 +30,7 @@ void preorder(treeNode* ptr) {              // root->left->right
 void inorder(treeNode* ptr) {               // left->root->right
     if (ptr) {
         inorder(ptr->left);
-        cout << ptr->data << " \n";
+        cout << ptr->data << " ";
         inorder(ptr->right);
     }
 }
@@ -39,7 +39,7 @@ void postorder(treeNode* ptr) {             // left->right->root
     if (ptr) {
         postorder(ptr->left);
         postorder(ptr->right);
-        cout << ptr->data << " \n";
+        cout << ptr->data << " ";
     }
 }
 
@@ -53,7 +53,15 @@ int main() {
     root->left->left = createNodeWithParent(4, root->left);     // level 2
     root->left->right = createNodeWithParent(5, root->left);
 
-    
+    cout << "Preorder traversal : ";
+    preorder(root);
+    cout << endl;
+    cout << "Inorder traversal  : ";
+    inorder(root);
+    cout << endl;
+    cout << "Postorder traversal: ";
+    postorder(root);
+    cout << endl;
 
     delete(root->left->right);
     delete(root->left->left);
